@@ -13,4 +13,8 @@ scoreboard players set #tic_in_sec jac_timer 0
 scoreboard players set #sec_in_min jac_timer 0
 scoreboard players set #min_in_hour jac_timer 0
 
+# Create triggers for the pack
+scoreboard objectives add make_wearable trigger
+scoreboard players enable @a make_wearable
+
 say Jacek Pack Loaded

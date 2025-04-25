@@ -1,0 +1,27 @@
+[
+    {
+      "function": "minecraft:set_components",
+      "components": {
+        "minecraft:equippable": {
+          "slot": "head"
+        }
+      }
+    },
+    {
+      "function": "minecraft:set_lore",
+      "entity": "this",
+      "lore": [
+        {
+          "text": "wearable",
+          "color": "yellow"
+        }
+      ],
+      "mode": "append"
+    },
+    {
+      "function": "minecraft:set_custom_data",
+      "tag": {
+        "wearable": true
+      }
+    }
+  ]
